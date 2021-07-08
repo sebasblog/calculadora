@@ -1,0 +1,39 @@
+body{
+    background-color:honeydew;
+}
+
+input{
+    font-size:60px;
+}
+
+.screen{
+    background-color: greenyellow;
+    color:gray;
+    text-align:right;
+    margin-bottom:1%;
+    border:3px solid gray;
+}
+
+.boton {
+    width:181px;
+    height:150px;
+    border:2px solid gray;
+}
+.boton2 {
+    width:181px;
+    height:150px;
+    background-color:beige;
+    border:2px solid gray;
+}
+.boton3 {
+    width:181px;
+    height:150px;
+    background-color:beige;
+    border:2px solid gray;
+}
+.boton4 {
+    width:181px;
+    height:150px;
+    background-color:gray;
+    border:2px solid gray;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/calculator.js" type="text/javascript" charset="UTF-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <input class="screen" type="text" id="screen" />
+    <br/>
+    <input class="boton" type="button" value="1" onclick="addSymbol('1')" />
+    <input class="boton" type="button" value="2" onclick="addSymbol('2')" />
+    <input class="boton" type="button" value="3" onclick="addSymbol('3')" />
+    <input class="boton2" type="button" value="+" onclick="addSymbol('+')" /> 
+    <br/>
+    <input class="boton" type="button" value="4" onclick="addSymbol('4')" />
+    <input class="boton" type="button" value="5" onclick="addSymbol('5')" />
+    <input class="boton" type="button" value="6" onclick="addSymbol('6')" />
+    <input class="boton2" type="button" value="-" onclick="addSymbol('-')" />
+    <br/>
+    <input class="boton" type="button" value="7" onclick="addSymbol('7')" />
+    <input class="boton" type="button" value="8" onclick="addSymbol('8')" />
+    <input class="boton" type="button" value="9" onclick="addSymbol('9')" />
+    <input class="boton2" type="button" value="*" onclick="addSymbol('*')" />
+    <br/>
+    <input class="boton3" type="button" value="C" onclick=clearScreen() />
+    <input class="boton" type="button" value="0" onclick="addSymbol('0')" />
+    <input class="boton4" type="button" value="=" onclick=operate() />
+    <input class="boton2" type="button" value="/" onclick="addSymbol('/')" />
+    
+</body>
+</html>
